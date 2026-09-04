@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PixelOS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="shell/styles.css" />
+</head>
+<body>
+  <div id="os-root">
+    <div id="boot-screen">
+      <img id="boot-logo-img" src="" alt="PixelOS" />
+      <div id="boot-bar-track"><div id="boot-bar-fill"></div></div>
+      <div id="boot-status">BOOTING PIXELOS...</div>
+    </div>
+
+    <div id="desktop">
+      <div id="desktop-icons"></div>
+    </div>
+
+    <div id="start-menu"></div>
+
+    <div id="taskbar">
+      <button id="start-button" aria-label="Start"></button>
+      <div id="taskbar-tray"></div>
+      <div id="taskbar-clock">00:00</div>
+    </div>
+  </div>
+
+  <!-- Shell core (order matters: each file attaches to window.WebOS) -->
+  <script src="shell/errors.js"></script>
+  <script src="shell/storage.js"></script>
+  <script src="shell/sprites.js"></script>
+  <script src="shell/audio.js"></script>
+  <script src="shell/toast.js"></script>
+  <script src="shell/sdk.js"></script>
+  <script src="shell/windowManager.js"></script>
+  <script src="shell/appLoader.js"></script>
+  <script src="shell/desktop.js"></script>
+  <script src="shell/taskbar.js"></script>
+  <script src="shell/startMenu.js"></script>
+  <script src="shell/boot.js"></script>
+  <script src="shell/main.js"></script>
+</body>
+</html>

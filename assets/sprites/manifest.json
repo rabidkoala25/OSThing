@@ -1,0 +1,15 @@
+{
+  "sprites": [
+    { "name": "icon_productivity", "path": "assets/sprites/icon_productivity.png", "width": 16, "height": 16 },
+    { "name": "icon_music",        "path": "assets/sprites/icon_music.png",        "width": 16, "height": 16 },
+    { "name": "icon_emulation",    "path": "assets/sprites/icon_emulation.png",    "width": 16, "height": 16 },
+    { "name": "icon_settings",     "path": "assets/sprites/icon_settings.png",     "width": 16, "height": 16 },
+    { "name": "icon_calculator",   "path": "assets/sprites/icon_calculator.png",   "width": 16, "height": 16 },
+    { "name": "cursor",            "path": "assets/sprites/cursor.png",            "width": 8,  "height": 8  },
+    { "name": "btn_close",         "path": "assets/sprites/btn_close.png",         "width": 8,  "height": 8  },
+    { "name": "btn_minimize",      "path": "assets/sprites/btn_minimize.png",      "width": 8,  "height": 8  },
+    { "name": "btn_start",         "path": "assets/sprites/btn_start.png",         "width": 24, "height": 16 },
+    { "name": "wallpaper_tile",    "path": "assets/sprites/wallpaper_tile.png",    "width": 32, "height": 32 },
+    { "name": "boot_logo",         "path": "assets/sprites/boot_logo.png",         "width": 48, "height": 16 }
+  ]
+}

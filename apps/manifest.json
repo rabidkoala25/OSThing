@@ -1,0 +1,9 @@
+{
+  "apps": [
+    { "id": "productivity", "name": "Tasks",     "icon": "icon_productivity", "entry": "apps/productivity/index.js", "defaultSize": { "w": 260, "h": 320 } },
+    { "id": "music",        "name": "Chiptune",  "icon": "icon_music",        "entry": "apps/music/index.js",        "defaultSize": { "w": 300, "h": 220 } },
+    { "id": "emulation",    "name": "Emulator",  "icon": "icon_emulation",    "entry": "apps/emulation/index.js",    "defaultSize": { "w": 360, "h": 320 } },
+    { "id": "settings",     "name": "Settings",  "icon": "icon_settings",     "entry": "apps/settings/index.js",     "defaultSize": { "w": 280, "h": 260 } },
+    { "id": "calculator",   "name": "Calc",      "icon": "icon_calculator",   "entry": "apps/calculator/index.js",   "defaultSize": { "w": 180, "h": 240 } }
+  ]
+}
